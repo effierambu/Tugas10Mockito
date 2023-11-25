@@ -1,0 +1,13 @@
+//@no-log
+### GET request with parameter
+GET https://api.themoviedb.org/3/search/company?api_key=f219b8f04b716dab27f0a1c400ff9dab&query=Oh My God
+Accept: application/json
+
+//@no-log
+### GET Movie details
+GET https://api.themoviedb.org/3/movie/832214?api_key=f219b8f04b716dab27f0a1c400ff9dab
+Accept: application/json
+
+### GET search movie request with parameter
+GET https://api.themoviedb.org/3/search/movie?api_key=f219b8f04b716dab27f0a1c400ff9dab&query=godzila
+Accept: application/json
